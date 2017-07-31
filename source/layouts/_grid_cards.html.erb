@@ -1,0 +1,21 @@
+<div class="container" id="home-flats">
+<h2 class="text-center">Recent Flats</h2>
+  <div class="row">
+    <% data.flats.each do |flat| %>
+      <div class="col-xs-12 col-sm-4">
+
+        <div class="card" style="background-image: url(<%= flat.image_city%>);">
+          <h2><%= flat.city %></h2>
+          <p><%= flat.name %>'s home</p>
+          <%= image_tag flat.avatar, class: "card-user" %>
+          <%= link_to "", "#", class: "card-link" %>
+          <p class="rating">
+            <%= ("<i class='fa fa-star' style='color: #ffb400'></i>").html_safe * flat.rank %><%= ("<i class='fa fa-star' style='color: white'></i>").html_safe * (5 - flat.rank) %>
+          </p>
+        </div>
+      </div>
+
+    <%end%>
+  </div>
+</div>
+

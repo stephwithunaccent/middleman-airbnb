@@ -1,0 +1,18 @@
+- city: "Paris"
+  image_city: "https://static.pexels.com/photos/338515/pexels-photo-338515.jpeg"
+  name: "Romain"
+  description: "Charming bachelorpad"
+  avatar: "https://avatars0.githubusercontent.com/u/29196344?v=3"
+  rank: 5
+- city: "Berlin"
+  image_city: "https://images.pexels.com/photos/164308/pexels-photo-164308.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+  name: "Leo"
+  description: "A raver's home"
+  avatar: "https://avatars1.githubusercontent.com/u/28591275?v=3"
+  rank: 3
+- city: "Rome"
+  image_city: "https://law.depaul.edu/academics/study-abroad/berlin-germany/PublishingImages/Berlin-OberbaumBridge_1600.jpg"
+  name: "Jacob"
+  description: "Mi casa su casa"
+  avatar: "https://avatars0.githubusercontent.com/u/29196344?v=3"
+  rank: 2
